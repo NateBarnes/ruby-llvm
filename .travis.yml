@@ -3,3 +3,6 @@ rvm:
   - 1.9.3
 before-install:
   - sudo apt-get install -qq llvm
+
+notifications:
+  email: false
